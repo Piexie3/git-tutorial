@@ -15,6 +15,7 @@ class MainApp extends StatelessWidget {
           child: Text(
             'Hello Emmanuel!',
             style: TextStyle(color: Colors.black),
+            maxLines: 12,
           ),
         ),
       ),
